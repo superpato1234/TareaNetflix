@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-image: url("https://www.reliancedigital.in/wp-content/uploads/2019/02/netflix_movies_cover.jpg");
+  background-size: contain;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+}
+.fondo {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.navbar {
+  display: flex;
+  padding: 0px 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar img {
+  width: 150px;
+}
+
+.navbar button {
+  background-color: rgb(250, 0, 0);
+  color: white;
+  padding: 10px;
+  border-radius: 3px;
+}
+section {
+  width: 40%;
+  margin: auto;
+  padding: 100px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+section h2 {
+  font-size: 50px;
+  font-weight: 500;
+}
+section p {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 20px 0px;
+}
+section button {
+  color: white;
+  background-color: rgb(255, 0, 0);
+  font-size: 20px;
+  font-weight: 400;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  align-items: center;
+  margin: auto;
+}
+section button .iconify {
+  color: white;
+  font-size: 30px;
+}
+/* section button::after {
+  content: ">";
+}
+ */
